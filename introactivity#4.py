@@ -1,0 +1,1 @@
+items = int(input("Number of items: "))
