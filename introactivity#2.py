@@ -1,12 +1,10 @@
-def numToReturn(numStart, numEnd):
-    x = range(numStart,numEnd, 7)
-    for n in x:
-        print(n)
+first = int(input("Please enter first number: "))
+second = int(input("Please enter second number: "))
+result = ""
+for i in range(first,second+1):
+        if i%7==0 and i%5!=0:
+            result += str(i)+","
 
-
-
-numStart = input("Please enter first number: ")
-numEnd = input("Please enter last number: ")
-finalRange = numToReturn
-
+result =result[:-1]
+print(result)
 
