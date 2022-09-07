@@ -1,5 +1,5 @@
 n = int(input("n: "))
-
-while(n %10 < 1):
-    print(str(n) + "")
-    n = n -1
+a = 10
+while(a < n):
+    print(str(a) + "")
+    a += 10
